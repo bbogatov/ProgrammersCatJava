@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        String poemText = readPoem(this, "poem.txt");
+        String poemText = readPoem(this, getString(R.string.poem_name));
 
 
         String poemName = getPoemName(poemText);

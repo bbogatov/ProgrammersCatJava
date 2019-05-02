@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Programmers Cat Java</string>
+    <string name="poem_name">poem.txt</string>
 </resources>
